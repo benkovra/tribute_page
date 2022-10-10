@@ -1,0 +1,22 @@
+
+.header {
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+    background: #6e6e6e;
+   margin: auto;
+}
+#bdi1 {
+    height:600px;
+    width: 90%;
+    background-image: url(../img/Bearded-dragon.png);
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+} 
+
+body {
+    background-color: rgb(165, 145, 108);
+
+}
+    
