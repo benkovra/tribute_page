@@ -2,10 +2,11 @@ img {
     width: 100%;
     height: auto;
 }
+
 .header {
-    padding: 60px;
+    padding: 5px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     background: rgb(44, 37, 25);
    margin: auto;
@@ -33,7 +34,7 @@ body {
 main {
     scroll-behavior: smooth;
 }
-.tank-header {
+#tank-header {
     text-align: center;
     font-size: 40px;
     background-color: rgb(44, 37, 25);
@@ -42,28 +43,71 @@ main {
     margin: 2em auto;
   
 }
+.tank p {
+    padding: 90px 0;
+}
+.tank img {
+   height: 100%;
+   object-fit: cover;
+   opacity: 1;
+   display: block;
+   width: 100%;
+   height: auto;
+   transition: .5s ease;
+   backface-visibility: hidden;
+}
+
+  .tank img:hover {
+    opacity: 0.3;
+  }
+  
+  .tank middle:hover {
+    opacity: 1;
+  }
 .tank {
     width: 90%;
-    font-size: 20px;
+    font-size: 30px;
     background: rgb(44, 37, 25);
     color: rgb(255, 255, 255);
     margin: 2em auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 2em;
+   
 }
-.lighting-header {
+
+.text1{
+    background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#lighting-header {
     text-align: center;
     font-size: 40px;
     background-color: rgb(44, 37, 25);
     color: white;
     width: 90%;
     margin: 2em auto;
-  
+}
+.lighting img {
+    width: 60%;
+    float: right;
+ 
+}
+.lighting1{
+    width: 90%;
+    font-size: 30px;
+    background: rgb(44, 37, 25);
+    color: rgb(255, 255, 255);
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2em; 
 }
 .lighting {
     width: 90%;
-    font-size: 20px;
+    font-size: 30px;
     background: rgb(44, 37, 25);
     color: rgb(255, 255, 255);
     margin: 2em auto;
@@ -72,7 +116,11 @@ main {
     grid-gap: 2em;
 
 }
-.diet-header {
+.lighting p {
+padding: 70px 0;
+
+}
+#diet-header {
     text-align: center;
     font-size: 40px;
     background-color: rgb(44, 37, 25);
@@ -81,9 +129,15 @@ main {
     margin: 2em auto;
   
 }
+.diet img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    
+}
 .diet {
     width: 90%;
-    font-size: 20px;
+    font-size: 30px;
     background: rgb(44, 37, 25);
     color: rgb(255, 255, 255);
     margin: 2em auto;
@@ -91,7 +145,7 @@ main {
     grid-template-columns: 1fr 2fr;
     grid-gap: 2em;
 }
-.avoid-header {
+#avoid-header {
     text-align: center; 
     font-size: 40px;
     background-color: rgb(44, 37, 25);
@@ -102,12 +156,12 @@ main {
 }
 .avoid {
     width: 90%;
-    font-size: 20px;
+    font-size: 30px;
     background: rgb(44, 37, 25);
     color: rgb(255, 255, 255);
     margin: 2em auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 2em;
 }
 nav ul {
@@ -119,6 +173,14 @@ nav ul {
     padding: 1em;
     margin-top: 0;
     margin-bottom: 0;
+    color: white;
+  }
+  nav a {
+    color: white;
+    transition: all .3s ease-in-out;
+  }
+  nav a:hover {
+    color: rgb(255, 123, 0);
   }
   footer {
     text-align: center;
