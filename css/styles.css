@@ -120,6 +120,9 @@ main {
 padding: 70px 0;
 
 }
+.lighting1 img:hover {
+  opacity: 0.3;
+}
 #diet-header {
     text-align: center;
     font-size: 40px;
@@ -145,6 +148,9 @@ padding: 70px 0;
     grid-template-columns: 1fr 2fr;
     grid-gap: 2em;
 }
+.diet img:hover {
+  opacity: 0.3;
+}
 #avoid-header {
     text-align: center; 
     font-size: 40px;
@@ -163,6 +169,9 @@ padding: 70px 0;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 2em;
+}
+.avoid img:hover {
+  opacity: 0.3;
 }
 nav ul {
     display: flex;
